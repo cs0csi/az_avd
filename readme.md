@@ -85,4 +85,4 @@ terraform destroy
 
 ## Conclusion
 
-This comprehensive solution combines the infrastructure-as-code capabilities of Terraform, the automation power of PowerShell, and the declarative deployment model of ARM templates to streamline the deployment and management of Azure Virtual Desktop resources. By following the provided documentation and executing the appropriate scripts or templates, users can easily provision, update, and delete AVD resources as needed.
+This comprehensive solution combines the infrastructure-as-code capabilities of Terraform, the automation power of PowerShell, and the declarative deployment model of ARM templates to streamline the deployment and management of Azure Virtual Desktop resources. By following the provided documentation and executing the appropriate scripts or templates, users can easily provision, update, and delete AVD resources as needed..
