@@ -30,12 +30,6 @@ This documentation provides an overview of a solution that utilizes Terraform, P
 - `workspace_name`: Name of the AVD workspace.
 - `users`: List of user principal names for user assignments.
 
-## PowerShell Automation
-
-### Script
-
-- `deploy.ps1`: PowerShell script for automating tasks related to the Terraform solution.
-
 ### Tasks
 
 1. **Initialize Terraform**: Initializes Terraform in the working directory.
@@ -45,7 +39,7 @@ This documentation provides an overview of a solution that utilizes Terraform, P
 
 ### Usage
 
-```powershell
+```hcl
 # Initialize Terraform
 terraform init
 
