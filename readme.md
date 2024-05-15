@@ -1,4 +1,4 @@
-# Terraform, PowerShell, and ARM Template Solution Documentation
+# Terraform and ARM Template Solution Documentation
 
 ## Overview
 
