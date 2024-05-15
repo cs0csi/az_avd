@@ -1,0 +1,58 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceGroupName": {
+            "type": "string",
+            "metadata": {
+                "description": "Name of the Azure resource group."
+            }
+        },
+        "location": {
+            "type": "string",
+            "metadata": {
+                "description": "Azure region where resources will be deployed."
+            }
+        },
+        "hostPoolName": {
+            "type": "string",
+            "metadata": {
+                "description": "Name of the AVD host pool."
+            }
+        },
+        "maxSessionLimit": {
+            "type": "int",
+            "metadata": {
+                "description": "Maximum number of user sessions allowed per VM in the host pool."
+            }
+        },
+        "loadBalancerType": {
+            "type": "string",
+            "metadata": {
+                "description": "Type of load balancer used in the host pool."
+            }
+        },
+        "appGroupName": {
+            "type": "string",
+            "metadata": {
+                "description": "Name of the AVD application group."
+            }
+        },
+        "workspaceName": {
+            "type": "string",
+            "metadata": {
+                "description": "Name of the AVD workspace."
+            }
+        },
+        "users": {
+            "type": "array",
+            "metadata": {
+                "description": "List of user principal names for user assignments."
+            }
+        }
+    },
+    "resources": [
+        // Define resources here
+    ],
+    "outputs": {}
+}
